@@ -6,14 +6,14 @@
 
 This library provides interoperability between **Monix 3.4** and **ZIO 1 and ZIO 2**. Both JVM and Scala.js are supported.
 
-[![Production Ready](https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/interop-monix/workflows/CI/badge.svg) [![Sonatype Releases](https://img.shields.io/nexus/r/https/oss.sonatype.org/dev.zio/zio-interop-monix_2.13.svg?label=Sonatype%20Release)](https://oss.sonatype.org/content/repositories/releases/dev/zio/zio-interop-monix_2.13/) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-interop-monix_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-interop-monix_2.13/) [![javadoc](https://javadoc.io/badge2/dev.zio/interop-monix-docs_2.13/javadoc.svg)](https://javadoc.io/doc/dev.zio/interop-monix-docs_2.13) [![ZIO Interop Monix](https://img.shields.io/github/stars/zio/interop-monix?style=social)](https://github.com/zio/interop-monix)
+[![Production Ready](https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/interop-monix/workflows/CI/badge.svg) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-interop-monix_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-interop-monix_2.13/) [![ZIO Interop Monix](https://img.shields.io/github/stars/zio/interop-monix?style=social)](https://github.com/zio/interop-monix)
 
 ## Installation
 
 In order to use this library, we need to add the following line in our `build.sbt` file:
 
 ```scala
-libraryDependencies += "dev.zio" %% "zio-interop-monix" % "3.4.2.1.1"
+libraryDependencies += "dev.zio" %% "zio-interop-monix" % "<version>"
 ```
 
 ## Tasks
